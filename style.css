@@ -1,0 +1,47 @@
+h1{
+    color: #ffffff;
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    display:flex;
+    background-color:cadetblue;
+    justify-content:space-between ;
+
+}
+.grid{
+   display:flex;
+   flex-wrap:wrap ; 
+   justify-content: space-evenly;
+}
+p,h2 {
+    font-family: 'Times New Roman', Times, serif;
+text-align: center;
+color: #000000;
+}
+body {
+    background-color: rgb(200, 200, 200)
+}
+a:link{
+    color: blueviolet;
+}
+a:visited{
+    color:white;
+}
+.item {
+    position:relative;
+}
+.item p{
+    position:absolute ;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity:0.33;
+}
